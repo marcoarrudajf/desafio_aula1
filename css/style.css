@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    box-sizing: border-box;    
+}
+#cabeca {
+    height: 5vw;
+    background-color: blueviolet;
+    display: flex;           
+    justify-content: center;
+    align-items: center;
+}
+#topo{
+    color: #fff;
+}
+#corpo{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+#nav {
+    width: 450px;
+    margin-bottom: 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+#membro{
+    border: 1px rgb(118, 40, 40) solid;
+    border-radius: 25px;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    
+}
+.text{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+#num{
+    color: #3605ff;
+    font-size: 25px;
+    font-weight: bold;
+    height: 20px;
+}
+#inp{
+    width: 80px;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#btn,
+#btn_rec, 
+#btn_com{
+    padding: 5px 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #3677ff;
+    color: #fff;
+    cursor: pointer;
+}
+#btn:hover,
+#btn_rec:hover,
+#btn_com:hover{
+    background-color: #9055ff;
+    transition: all 2s;
+}
+#btn_rec{
+    display: none;
+}
+.ativo{
+    background-color: #b4cfcc;
+    display: flex !important;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+}
